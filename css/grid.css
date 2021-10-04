@@ -1,0 +1,90 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+}
+h1,h2{
+    text-align:center;
+}
+h1{
+    color:skyblue;
+    margin:20px 0;
+}
+h2{
+    color:red;
+}
+.base .wrap{
+    width:90%;/*960px*/
+    border:4px solid #000;
+    margin:20px auto;
+}
+.content{
+    width:93.75%;/*960에 맞춰서 900을 가변시킴*/
+    margin:0 auto;
+    border:4px solid red;
+}
+.content div{
+    float:left;
+}
+.content:after{
+    content:"";
+    display:block;
+    clear:both;
+    /*float시킨 위의 div의 float을 해제시킴*/
+}
+.content div:first-child{
+    width:33.333%;/*300px/900px 안에 있는 box900넓이에 맞춰서 300을 가변시킴*/
+    background:lightskyblue;
+   
+}
+.content div:last-child{
+    width:66.666%;/*600px/900px*/
+    background:gold;
+}
+
+
+
+
+
+.margin .wrap{
+    width:90%;/*960px*/
+    border:4px solid #000;
+    margin:20px auto;
+}
+.margin .wrap div{
+    display:inline-block;
+    vertical-align:top;
+}
+.margin .wrap div:first-child{
+    width:31.25%;/*300/960*100*/
+    background:pink;
+    margin-right:37.5%;/*360px/960px*/
+}
+.margin .wrap div:last-child{
+    width:31.25%;
+    background:cornflowerblue;
+}
+
+
+
+
+.padding .wrap{
+    width:90%;/*width 960px 90%넓이 10%여백*/
+    border:4px solid #000;
+    margin:20px auto;
+}
+
+.padding .wrap div{
+    display:inline-block;/*block속성을 lnline 속성 을 가진 block요소로 바꿔서 옆으로 붙게함 */
+    vertical-align:top;/*block속성을 가진 태그를 위로 정렬시힘*/
+}
+.padding .wrap div:first-child{
+    background-color:bisque;
+    width:31.25%;/*960/300 300넓이를 가진div 를 960px에 맞춰서 가변시킴*/
+    padding:5.208%;/*패딩은 width의 넓이가 아니므로 300이 아니라 큰 넓이 960에 맞춰서 가변시킴*/
+}
+.padding .wrap div:last-child{
+    background-color:darkseagreen;
+    width:31.25%;
+    padding:130px 13.541%;
+}

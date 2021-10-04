@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!--[if lte IE8]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+    <title>모바일1</title>
+    <script type="text/javascript">
+        
+    </script>
+</head>
+
+<body>
+    <!--header시작-->
+    <div id="headerWrap">
+        <header>
+            <h1><a href="index.html"><img src="images/logo.png" alt="제이애드미디어 로고"></a></h1> 
+            <a href="#"><img src="images/menu.png" alt="메뉴버튼"></a>
+            <nav>
+                <ul>
+                    <li class="web"><a href="web1.html">Web 1</a></li>
+                    <li class="web"><a href="web2.html">Web 2</a></li>
+                    <li class="mobile"><a href="mobile1.html">Mobile A</a></li>
+                    <li class="mobile"><a href="mobile2.html">Mobile B</a></li>
+                    <li class="mobile"><a href="mobile3.html">Mobile C</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!--header끝-->
+    <!--navsection-->
+    <div id="bodyWrap">
+        <section>
+           <div id="h1">
+                <p>Package</p>
+                <h1>Mobile A</h1>
+           </div>
+            
+           <!--정보-->
+           <div id="info">
+                <ul>
+                    <li class="dark"><a href="">광고형태 : <span class="point">CPP</span></a></li>
+                    <li><a href="">평균 노출수 : <span class="point"><span class="point">100만 ~ 150만</span></span></a></li>
+                    <li class="dark"><a href="">광고기간 : <span class="point">4주</span></a></li>
+                    <li><a href="">광고비용 : <span class="point">500만(AVT별도)</span></a></li>
+                </ul>
+            </div>
+             <div id="guide" onclick="btnClose()">
+                <h2>guide</h2>
+                <a href="#" onclick="btnClose()"><img src="images/close.png" alt="닫기버튼"></a>
+                <div id="infoImg"></div>
+                <!--<img src="images/guide.png" alt="보이는 영역">-->
+                <p>* CPP광고의 특성상 패키지 내의 언론사 영역의 일부 변경이 있을 수 있습니다.</p>
+                <p>* 선정적인 소재 및 업종에 따라 노출이 제한되는 매체가 발생할 수 있습니다</p>
+            </div>
+            <div id="tab">
+                <h2>세부영역</h2>
+                <p><img src="images/narrow.png" alt="">영역 총개수 : <span class="point2">23개 영역</span></p>
+                <table>
+                    <tr>
+                        <th>광고형태</th>
+                        <th>언론사명</th>
+                        <th>광고위치</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="23">Text</td>
+                        <td><a href="" onclick="ClickThis('MobileA','huff')">허핑턴포스트코리아</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','huff')">바이라인</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','khan')">경향신문</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','khan')">기사하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','yeonhap')">연합뉴스</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','yeonhap')">기사하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','mbn')">MBN</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','mbn')">포토링크</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','seoul')">서울신문</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','seoul')">기사하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','seoulen')">서울EN</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','seoulen')">기사하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','donga')">동아일보</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','donga')">기사하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','knsnews')">KNS뉴스통신</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','knsnews')">바이라인</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','knsnews2')">KNS뉴스통신</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','knsnews2')">기사하단-1</a></td>
+                    </tr>
+                     <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','sportskhan')">스포츠경향</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','sportskhan')">기사하단</a></td>
+                    </tr>
+                     <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','ladykhan')">레이디경향</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','ladykhan')">기사하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','busan')">부산일보</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','busan')">기사하단-1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','whitepaper')">화이트페이퍼</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','whitepaper')">바이라인</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','simin')">시민일보</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','simin')">포토링크</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','kiho')">기호일보</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','kiho')">바이라인</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','starnews')">스타뉴스</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','starnews')">기사하단-1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','asiaeconomy')">아시아경제</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','asiaeconomy')">기사하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','gvally')">지벨리</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','gvally')">기사하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','specialeconomy')">스페셜경제</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','specialeconomy')">기사하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','basketkorea')">바스켓코리아</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','basketkorea')">사진하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','techholic')">테크홀릭</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','techholic')">기사하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','nownews')">나우뉴스</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','nownews')">기사하단</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="" onclick="ClickThis('MobileA','nocut')">노컷뉴스</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','nocut')">바이라인</a></td>
+                    </tr>
+                    <!--<tr>
+                        <td><a href="" onclick="ClickThis('MobileA','dailykorea')">데일리한국</a></td>
+                        <td><a href="" onclick="ClickThis('MobileA','dailykorea')">기사하단</a></td>
+                    </tr>-->
+                </table>
+            </div>
+        
+        </section>
+    </div>
+<div id="footerWrap">
+        <footer> 
+            <img src="images/logo_2.png" alt="로고2">
+            <address>서울특별시 마포구 서교동 395-179 미르빌딩 6층 | Tel : 02-1644-7462 | Email : yms-ad@naver.com</address>
+            <p>Copyright Jadplus corp. All right reserved</p>
+        </footer>
+    </div>
+</body>
+
+</html>

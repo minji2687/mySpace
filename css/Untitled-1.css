@@ -1,0 +1,47 @@
+@charset"utf-8";
+body{
+    font-family:Arial,sans-serif;
+    line-height:1.6em;
+    background:black;
+    color:#fff;
+    
+}
+
+h1{
+    color:yellowgreen;
+}
+
+p:first-letter{
+    
+    font-size:1.5em;
+    color:yellowgreen;
+}
+@media screen and (min-width:901px){
+    body{
+        
+        background:skyblue;
+        color:#666;
+    }
+    h1,p:first-letter{
+        color:yellow;    
+        
+    }
+    
+}
+@media screen and (min-width:601px) and (max-width:900px) {
+    body{
+        background:darkred;
+        color:beige;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background:darkblue;
+        color:#white;
+    }
+    h1,p:first-letter{
+        
+        color:yellow;
+    }
+}
+    
